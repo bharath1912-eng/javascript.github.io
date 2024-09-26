@@ -1,4 +1,4 @@
-/*-- variable declaration and asigned we can also reassign --*/
+
 var a ;
 var b;
 var c;
@@ -36,11 +36,12 @@ function get(){
 }
  get();
   /*-- synchronous function */
-   let e="Bharath";
-  let f="24";
-  let g="BCA";
+  
  function sync(){
-    console.log("Name = "+e);
+    let name="Bharath";
+  let f="24";
+  
+    console.log("Name = "+name);
     console.log("Age = "+f);
     
  }
@@ -57,4 +58,5 @@ setTimeout(
         console.log("Task finished after 2 seconds.");
     },2000
  )
+ var g="BCA";
  console.log("Education = "+g);
