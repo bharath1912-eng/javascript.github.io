@@ -1,4 +1,4 @@
-// variable declaration and asigned we can also reassign
+/*-- variable declaration and asigned we can also reassign --*/
 var a ;
 var b;
 var c;
@@ -14,7 +14,7 @@ var d;
     console.log(d);
 }
 functionscope()
-// let once declared we can`t redeclare but reassign 
+/*-- let once declared we can`t redeclare but reassign  */
 function blockscope(){
     let a=10;
     if(a==100)
@@ -29,13 +29,13 @@ function blockscope(){
     }                                                                        
 }
 blockscope()
-// const once declared we can`t declared and reassign
+/*-- const once declared we can`t declared and reassign */
 function get(){
     const a=10;
     console.log(a);
 }
  get();
-  //synchronous function
+  /*-- synchronous function */
    let e="Bharath";
   let f="24";
   let g="BCA";
@@ -45,7 +45,7 @@ function get(){
     
  }
  sync();
-// Asynchronus function
+/*-- Asynchronus function */
  setTimeout(
     function fun(){
         console.log("Task finished after 3 seconds.");
