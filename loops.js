@@ -9,7 +9,7 @@ let count ;
  for(count=1;count<=10;count++){
     if(count%2!=0){
     console.log("Odd number = "+count);
-    }
+    }  
  }
  // do while loop
  let loop=10;
